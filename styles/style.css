@@ -1,0 +1,106 @@
+/* common css  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+.btn_primary{
+    padding: 12px 20px;
+    background: #F52C2C;
+    color: #fff;
+    transition: .5s;
+    border: none;
+}
+.btn_primary:hover{
+    background: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    transition: .5s;
+}
+
+/* header section styles */
+#header{
+    background: #D5D2D2;
+}
+#header nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 18px;
+}
+#header nav .logo h3 a{
+    display: flex;
+    align-items: center;
+}
+#header nav .logo img{
+    width: 150px;
+}
+#header nav .logo h3 span{
+    color: rgb(8, 255, 255);
+}
+#header nav .menus{
+    display: flex;
+    gap: 20px;
+}
+#header nav .menus li a{
+    color: #000;
+    font-size: 20px;
+}
+#header nav .menus li a:hover{
+    color: #F52C2C;
+}
+/* banner section styles */
+#banner{
+    width: 100%;
+    height: 100vh;
+    background: url("../asset/image/background.jpg"), linear-gradient(rgba(8, 8, 8, 0.24), rgba(0, 0, 0, 0.233));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#banner .banner_container{
+    text-align: center;
+    width: 800px;
+}
+#banner .banner_container .banner_title{
+    font-size: 80px;
+}
+#banner .banner_container span{
+    color: #F52C2C;
+}
+#banner .banner_container .banner_desc{
+    font-size: 20px;
+    width: 600px;
+    text-align: center;
+    margin-left: 100px;
+    margin: 20px auto 30px;
+}
+#banner .banner_container .banner_btn button{
+    font-size: 20px;
+}
+#banner .banner_container .banner_btn .second_btn{
+    background: #D5D2D2;
+    color: #000;
+    margin-left: 20px;
+}
+#banner .banner_container .banner_btn .second_btn:hover{
+    background: #000;
+    color: #D5D2D2;
+    margin-left: 20px;
+}
