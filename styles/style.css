@@ -1,14 +1,16 @@
 /* common css  */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Times New Roman', Times, serif;
     color: #fff;
 }
-.btn_primary{
+
+.btn_primary {
     padding: 12px 20px;
     background: #F52C2C;
     color: #fff;
@@ -16,12 +18,14 @@ body{
     border: none;
     border-radius: 5px;
 }
-.btn_primary:hover{
+
+.btn_primary:hover {
     background: #ccc;
     color: #000;
     cursor: pointer;
 }
-.btn_secondery{
+
+.btn_secondery {
     padding: 12px 20px;
     background: #ccc;
     color: #000;
@@ -29,21 +33,24 @@ body{
     border: none;
     border-radius: 5px;
 }
-.btn_secondery:hover{
+
+.btn_secondery:hover {
     background: #F52C2C;
     color: #000;
     cursor: pointer;
 }
-a{
+
+a {
     text-decoration: none;
     transition: .5s;
 }
 
 /* header section styles */
-#header{
+#header {
     background: #D5D2D2;
 }
-#header nav{
+
+#header nav {
     display: flex;
     justify-content: space-between;
     max-width: 70%;
@@ -51,30 +58,37 @@ a{
     align-items: center;
     padding: 18px;
 }
-#header nav .logo h3 a{
+
+#header nav .logo h3 a {
     display: flex;
     align-items: center;
 }
-#header nav .logo img{
+
+#header nav .logo img {
     width: 150px;
 }
-#header nav .logo h3 span{
+
+#header nav .logo h3 span {
     color: rgb(8, 255, 255);
 }
-#header nav .menus{
+
+#header nav .menus {
     display: flex;
     gap: 20px;
     list-style: none;
 }
-#header nav .menus li a{
+
+#header nav .menus li a {
     color: #000;
     font-size: 20px;
 }
-#header nav .menus li a:hover{
+
+#header nav .menus li a:hover {
     color: #F52C2C;
 }
+
 /* banner section styles */
-#banner{
+#banner {
     width: 100%;
     height: 100vh;
     background: url("../asset/image/background.jpg"), linear-gradient(rgba(8, 8, 8, 0.24), rgba(0, 0, 0, 0.233));
@@ -86,42 +100,50 @@ a{
     align-items: center;
     justify-content: center;
 }
-#banner .banner_container{
+
+#banner .banner_container {
     text-align: center;
     width: 800px;
 }
-#banner .banner_container .banner_title{
+
+#banner .banner_container .banner_title {
     font-size: 80px;
 }
-#banner .banner_container span{
+
+#banner .banner_container span {
     color: #F52C2C;
 }
-#banner .banner_container .banner_desc{
+
+#banner .banner_container .banner_desc {
     font-size: 20px;
     width: 600px;
     text-align: center;
     margin-left: 100px;
     margin: 20px auto 30px;
 }
-#banner .banner_container .banner_btn button{
+
+#banner .banner_container .banner_btn button {
     font-size: 20px;
 }
-#banner .banner_container .banner_btn .second_btn{
+
+#banner .banner_container .banner_btn .second_btn {
     background: #D5D2D2;
     color: #000;
     margin-left: 20px;
 }
-#banner .banner_container .banner_btn .second_btn:hover{
+
+#banner .banner_container .banner_btn .second_btn:hover {
     background: #000;
     color: #D5D2D2;
     margin-left: 20px;
 }
+
 /* services area styles */
-#services{
+#services {
     width: 100%;
     height: 120vh;
     padding-bottom: 50px;
-    background: url("../asset/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 0.945),rgba(0, 0, 0, 0.895));
+    background: url("../asset/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 0.945), rgba(0, 0, 0, 0.895));
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,59 +152,71 @@ a{
     align-items: center;
     justify-content: center;
 }
-#services .service_container{
+
+#services .service_container {
     display: flex;
     align-items: center;
     max-width: 96%;
     gap: 80px;
 }
-#services .service_container .service1btn{
+
+#services .service_container .service1btn {
     margin-bottom: 16px;
     font-size: 20px;
     width: 170px;
     border-radius: 20px;
 }
-#services .service_container .service_desc_div{
+
+#services .service_container .service_desc_div {
     width: 630px;
 }
-#services .service_container .service_desc_div .service_title{
+
+#services .service_container .service_desc_div .service_title {
     font-size: 44px;
     color: #ccc;
 }
-#services .service_container .service_desc_div .service_title span{
+
+#services .service_container .service_desc_div .service_title span {
     color: #F52C2C;
 }
-#services .service_container .service_desc_div p{
+
+#services .service_container .service_desc_div p {
     font-size: 16px;
     margin: 20px 0 26px;
 }
-#services .service_container .service_desc_div ol{
+
+#services .service_container .service_desc_div ol {
     list-style: number;
     margin-left: 14px;
 }
-#services .service_container .service_desc_div ol li{
+
+#services .service_container .service_desc_div ol li {
     margin-bottom: 14px;
 }
-#services .service_container .owner_desc_div{
+
+#services .service_container .owner_desc_div {
     display: flex;
     margin-top: 40px;
     align-items: center;
 }
-#services .service_container .owner_desc_div button{
+
+#services .service_container .owner_desc_div button {
     border-radius: 30px;
     height: 50px;
     font-size: 16px;
     text-transform: uppercase;
     padding: 12px 26px;
 }
-#services .service_container .owner_desc_div .owner_div{
+
+#services .service_container .owner_desc_div .owner_div {
     display: flex;
     align-items: center;
     padding-right: 60px;
     border-right: 2px solid #F52C2C;
     margin-right: 20px;
 }
-#services .service_container .owner_desc_div .owner_div #owner_img{
+
+#services .service_container .owner_desc_div .owner_div #owner_img {
     width: 70px;
     height: 70px;
     border-radius: 50px;
@@ -190,14 +224,16 @@ a{
 }
 
 #services .service_container .service_box_div {
-display: flex;
-gap: 15px;
+    display: flex;
+    gap: 15px;
 }
-#services .service_container .service_box_div .boxes h3{
-color: #000;
-margin-top: 20px;
+
+#services .service_container .service_box_div .boxes h3 {
+    color: #000;
+    margin-top: 20px;
 }
-#services .service_container .service_box_div .boxes{
+
+#services .service_container .service_box_div .boxes {
     text-align: center;
     background: #fff;
     border-radius: 5px;
@@ -205,11 +241,13 @@ margin-top: 20px;
     width: 250px;
     height: 280px;
 }
-#box2, #box4{
+
+#box2,
+#box4 {
     margin-top: 15px;
 }
 
 
-#services .service_container .service_box_div .boxes img{
-width: 80px;
+#services .service_container .service_box_div .boxes img {
+    width: 80px;
 }
