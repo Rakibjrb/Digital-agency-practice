@@ -14,14 +14,25 @@ body{
     color: #fff;
     transition: .5s;
     border: none;
+    border-radius: 5px;
 }
 .btn_primary:hover{
     background: #ccc;
     color: #000;
     cursor: pointer;
 }
-li{
-    list-style: none;
+.btn_secondery{
+    padding: 12px 20px;
+    background: #ccc;
+    color: #000;
+    transition: .5s;
+    border: none;
+    border-radius: 5px;
+}
+.btn_secondery:hover{
+    background: #F52C2C;
+    color: #000;
+    cursor: pointer;
 }
 a{
     text-decoration: none;
@@ -53,6 +64,7 @@ a{
 #header nav .menus{
     display: flex;
     gap: 20px;
+    list-style: none;
 }
 #header nav .menus li a{
     color: #000;
@@ -103,4 +115,101 @@ a{
     background: #000;
     color: #D5D2D2;
     margin-left: 20px;
+}
+/* services area styles */
+#services{
+    width: 100%;
+    height: 120vh;
+    padding-bottom: 50px;
+    background: url("../asset/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 0.945),rgba(0, 0, 0, 0.895));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#services .service_container{
+    display: flex;
+    align-items: center;
+    max-width: 96%;
+    gap: 80px;
+}
+#services .service_container .service1btn{
+    margin-bottom: 16px;
+    font-size: 20px;
+    width: 170px;
+    border-radius: 20px;
+}
+#services .service_container .service_desc_div{
+    width: 630px;
+}
+#services .service_container .service_desc_div .service_title{
+    font-size: 44px;
+    color: #ccc;
+}
+#services .service_container .service_desc_div .service_title span{
+    color: #F52C2C;
+}
+#services .service_container .service_desc_div p{
+    font-size: 16px;
+    margin: 20px 0 26px;
+}
+#services .service_container .service_desc_div ol{
+    list-style: number;
+    margin-left: 14px;
+}
+#services .service_container .service_desc_div ol li{
+    margin-bottom: 14px;
+}
+#services .service_container .owner_desc_div{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+#services .service_container .owner_desc_div button{
+    border-radius: 30px;
+    height: 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 12px 26px;
+}
+#services .service_container .owner_desc_div .owner_div{
+    display: flex;
+    align-items: center;
+    padding-right: 60px;
+    border-right: 2px solid #F52C2C;
+    margin-right: 20px;
+}
+#services .service_container .owner_desc_div .owner_div #owner_img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+#services .service_container .service_box_div {
+display: flex;
+gap: 15px;
+}
+#services .service_container .service_box_div .boxes h3{
+color: #000;
+margin-top: 20px;
+}
+#services .service_container .service_box_div .boxes{
+    text-align: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 50px;
+    width: 250px;
+    height: 280px;
+}
+#box2, #box4{
+    margin-top: 15px;
+}
+
+
+#services .service_container .service_box_div .boxes img{
+width: 80px;
 }
